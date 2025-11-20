@@ -6,7 +6,6 @@ Spring Boot application to create the backend for the basic Task Manager applica
 - Java (recommended: Java 17+)
 - Spring Boot
 - Maven
-- Runs on Linux / developed with IntelliJ IDEA
 
 ## Prerequisites
 - JDK 17+ installed
@@ -19,7 +18,6 @@ Spring Boot application to create the backend for the basic Task Manager applica
 ## High-level diagram
 com.example.task Spring Boot app (single service)
 Client/API Consumer -> HTTP -> Controller -> Service -> Repository -> Database
-(Optional) External services -> HTTP / Messaging -> Service
 
 ## Key components
 1. Application
